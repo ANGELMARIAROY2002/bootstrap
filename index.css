@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+ }
+ 
+ .north{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    border-bottom: solid 1px gainsboro;
+}
+.text-over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    opacity: 0;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+}
+.now{
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 1rem;
+}
+.text-over:hover{
+    opacity: 3;
+}
+.hed{
+    text-align: center;
+    margin-top: 30px;
+}
+.ntr{
+    width: 250px;
+    height: 250px;
+    border: solid 1px gainsboro;
+    border-radius: 1rem;
+    position: relative;
+
+}
+.nim{
+    width: 100%;
+    height: 100%;
+    border-radius: 3rem;
+    padding: 20px;
+
+}
+.section2{
+    background-color: gainsboro;
+    padding-top: 10px;
+}
+.carousel{
+    margin-top: 50px;
+    padding: 0px 5px;
+  }
+.m{
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: rgb(0, 200, 255);
+    color: rgb(117, 27, 27);
+    border-radius: 1rem;
+}
+
+.premium{
+    color: #ff0000;
+    font-family: "Playwrite CU", cursive;
+    text-align: center;
+}
+.feat{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.features{
+    width: 250px;
+    height: 250px;
+    border: solid 1px gainsboro;
+    background-color: rgb(241, 171, 90);
+    display: grid;
+    justify-content: center;
+    border-radius: 4rem;
+    margin-top: 10px;
+
+}
+.fim{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+.res{
+    text-transform: uppercase;
+    text-align: center;
+}
+.lk{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
